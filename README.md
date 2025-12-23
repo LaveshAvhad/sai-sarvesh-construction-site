@@ -1,96 +1,20 @@
-# Sai Sarvesh construction
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-**Professional Building & Construction Services**
+# Run and deploy your AI Studio app
 
-Sai Sarvesh Buildcraft is a construction and site execution firm based in Mahad, Raigad, focused on delivering structurally sound, professionally managed, and transparently executed building projects.
+This contains everything you need to run your app locally.
 
-We operate with a clear philosophy: real work, real sites, and disciplined execution.
+View your app in AI Studio: https://ai.studio/apps/drive/1dyE1Pmd6t-lOOuJkoTwSjLgscnLytouD
 
----
+## Run Locally
 
-## Who We Are
+**Prerequisites:**  Node.js
 
-Sai Sarvesh Buildcraft specializes in residential and commercial construction with an emphasis on quality workmanship, technical accuracy, and on-site discipline.
 
-Our approach is practical, process-driven, and client-focused — ensuring every project reflects strength, durability, and long-term value.
-
----
-
-## What We Do
-
-We provide end-to-end construction and site execution services, including:
-
-- Residential building construction
-- Structural execution and site management
-- Renovation and redevelopment works
-- Civil and RCC execution
-- On-site supervision and coordination
-- Material planning and execution support
-
-All work showcased is real and executed on active sites.
-
----
-
-## How We Work
-
-- Clear communication from start to execution
-- Transparent site progress and real-time updates
-- Focus on structural integrity and build quality
-- Disciplined timelines and professional conduct
-- No exaggerated claims or misleading metrics
-
-We believe trust is built on execution, not numbers.
-
----
-
-## Real Work Showcase
-
-We document and showcase real on-site work through live project reels and updates.
-
-Instagram:
-https://www.instagram.com/saisarveshbuildingconstruction/
-
-This allows clients to see actual site conditions, execution quality, and work methodology.
-
----
-
-## Service Area
-
-- Mahad
-- Raigad
-- Surrounding regions in Maharashtra
-
----
-
-## Contact
-
-For project discussions, site execution inquiries, or consultations:
-
-📧 Email  
-saisarveshbuildingconstruction@gmail.com  
-
-📞 Phone  
-9422695329  
-9270177929  
-
-📍 Location  
-Mahad, Raigad, Maharashtra
-
-📸 Instagram  
-@saisarveshbuildingconstruction
-
----
-
-## Our Commitment
-
-We are committed to delivering:
-
-- Structurally reliable construction
-- Honest communication
-- Professional execution
-- Long-term value for clients
-
----
-
-© Sai Sarvesh Buildcraft  
-All rights reserved.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
